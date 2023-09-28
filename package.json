@@ -1,0 +1,17 @@
+{
+  "name": "ahj-diploma-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  }
+}
